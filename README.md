@@ -148,7 +148,9 @@ To quickly get started with the model and see how it works in action, refer to t
 
 To quickly get started with the model and see how it works in action, refer to the [**`Usage.ipynb`**](/usage/Usage.ipynb) notebook. This notebook provides an easy-to-follow walkthrough for using the trained model for segmentation-guided image generation. It covers everything from loading the model to performing inference and generating high-quality images based on input segmentation maps. You can easily run the notebook to see how the model performs and make adjustments as needed.
 
-![Sample](/facade_sample_1.png)
+![Sample](/samples/samples_30.png)
+
+<br>
 
 ![Sample](usage/inference.png)
 
