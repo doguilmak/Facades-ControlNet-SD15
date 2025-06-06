@@ -16,7 +16,7 @@ git clone https://huggingface.co/doguilmak/facade-controlnet-sd15
 Folder contents:
 
 ```
-building-facades-controlnet/
+facade-controlnet-sd15/
 ├── controlnet/                         # ControlNet weights
 ├── diffusion_pytorch_model-001.safetensors  # Core UNet weights
 ├── feature_extractor/                  # ControlNet vision encoder
@@ -146,7 +146,7 @@ To quickly get started with the model and see how it works in action, refer to t
 
 ## 📸 Sample Outputs
 
-To quickly get started with the model and see how it works in action, refer to the [**`Usage.ipynb`**](/usage/Usage.ipynb) notebook. This notebook provides an easy-to-follow walkthrough for using the trained model for segmentation-guided image generation. It covers everything from loading the model to performing inference and generating high-quality images based on input segmentation maps. You can easily run the notebook to see how the model performs and make adjustments as needed.
+These examples illustrate the model’s ability to generate photorealistic urban scenes guided by semantic segmentation maps. The outputs demonstrate strong spatial alignment between the input masks and the synthesized content, capturing realistic facades.
 
 ![Sample](/samples/samples_30.png)
 
