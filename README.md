@@ -1,9 +1,9 @@
 
 ![Cover](/assets/cover.png)
 
-This repository provides a comprehensive pipeline for training and deploying a **ControlNet-enhanced Stable Diffusion model** for generating **building facades from semantic segmentation maps**. By integrating architectural structure into the image generation process, the model ensures spatial alignment and photorealistic outputs. This project builds on [lllyasviel/sd-controlnet-seg](https://huggingface.co/lllyasviel/sd-controlnet-seg) and adapts it for facade-specific applications.
+This repository provides a comprehensive pipeline for deploying a **ControlNet-enhanced Stable Diffusion model for generating building facades from semantic segmentation maps**. By integrating architectural structure into the image generation process, the model ensures spatial alignment and photorealistic outputs. This project builds on [lllyasviel/sd-controlnet-seg](https://huggingface.co/lllyasviel/sd-controlnet-seg) and adapts it for facade-specific applications.
 
-The model is trained using the **ControlNet framework** introduced in [_Adding Conditional Control to Text-to-Image Diffusion Models_](https://arxiv.org/abs/2302.05543), with optimized hyperparameters and a cosine learning rate schedule for stable fine-tuning.
+The model is trained using the ControlNet framework introduced in [_Adding Conditional Control to Text-to-Image Diffusion Models_](https://arxiv.org/abs/2302.05543), with optimized hyperparameters and a cosine learning rate schedule for stable fine-tuning.
 
 <br>
 
