@@ -49,6 +49,9 @@ conda activate controlnet-env
 
 ## 🚀 Usage Overview
 
+### 1. Training (Fine-tuning ControlNet)
+
+Training involves fine-tuning only the **ControlNet-specific parameters**, while keeping the core Stable Diffusion components (**text encoder, UNet, VAE**) frozen. This design allows the model to learn how to control image generation via semantic segmentation maps without disrupting the pretrained generative capacity of the base model.
 
 #### 🧾 Training Details
 
@@ -166,5 +169,7 @@ These examples illustrate the model’s ability to generate photorealistic urban
 -   **ControlNet Segmentation Model**: [lllyasviel/sd-controlnet-seg @ Hugging Face](https://huggingface.co/lllyasviel/sd-controlnet-seg)
     
 -   **ControlNet Paper**: Y. Zhao _et al._, “Adding Conditional Control to Text-to-Image Diffusion Models,” _arXiv preprint_ arXiv:2302.05543, 2023.
+
+-   **Massachusetts Institute of Technology**: [Training a ControlNet for Stable Diffusion](6.8300.csail.mit.edu/sp23/projects/ControlNet_for_Stable_Diffusion.pdf)
     
 -   **Facades Dataset**: [Kaggle: Facades Dataset](https://www.kaggle.com/datasets/balraj98/facades-dataset)
